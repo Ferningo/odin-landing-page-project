@@ -1,0 +1,40 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.section{
+    border: 1px solid black;
+    flex: 1;
+
+}
+
+.first{
+    background-color: blue;
+    flex-basis: 80%;
+}
+
+.second{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.third{
+    background-color: orange;
+}
+
+.fourth{
+    background-color: greenyellow;
+}
+
+.square-frame{
+    min-width: 150px;
+    min-height: 150px;
+    border: 1px solid black;
+}
