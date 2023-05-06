@@ -13,8 +13,8 @@
 .first{
     display: flex;
     border: 2px solid orange;
-    flex-basis: 80%;
-    justify-content: stretch;
+    justify-content: center;
+    align-items: center;
 }
 
 .header{
@@ -23,13 +23,14 @@
 }
 
 .welcome-section{
+    min-width: 60%;
     justify-content: stretch;
     display: flex;
     border: 2px solid black;
-    flex: 1;
 }
 
 .awesome-message-container{
+    flex:1;
     padding: 0px 20px;
     background-color: #1F2937;
     display: flex;
@@ -37,6 +38,21 @@
     word-wrap: break-word;
     justify-content: center;
     align-items: baseline;
+}
+
+.awesome-picture-container{
+    flex: 1;
+    display: flex;
+    min-width: none;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-pseudo-image{
+    background-color:gray;
+    min-width: 90%;
+    min-height: 70%;
 }
 
 .hero-main-text{
