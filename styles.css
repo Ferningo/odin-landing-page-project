@@ -12,9 +12,10 @@
 
 .first{
     display: flex;
-    border: 2px solid orange;
+    background-color: #1F2937;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .header{
@@ -26,7 +27,6 @@
     min-width: 60%;
     justify-content: stretch;
     display: flex;
-    border: 2px solid black;
 }
 
 .awesome-message-container{
@@ -50,6 +50,11 @@
 }
 
 .hero-pseudo-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#E5E7EB;
     background-color:gray;
     min-width: 90%;
     min-height: 70%;
